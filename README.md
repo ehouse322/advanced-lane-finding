@@ -49,7 +49,7 @@ Here is an example of an image which had distortion correction applied to it:
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used a combination of different color  thresholds to generate a binary image. In the iPython notebook, these are under a heading titled "Color Thresholding". Here's an example of my output for this step.
+I used a combination of different color and gradient thresholds to generate a binary image. In the iPython notebook, these are under a heading titled "Color Thresholding". Here's an example of my output for this step.
 
 ![color threshold][image3]
 
@@ -117,4 +117,4 @@ Here's a [link to my video result](./project_video_output.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-In my implementation, I first spent a significant amount of time trying different color and gradient thresholds. I ended up not actually using gradient thresholding, but used color thresholding with two different color spaces. There was one test image which was particularly difficult to identify the lane lines with, because that image had a bright patch followed by a large shadow cast by a tree. It is situations like these where my pipeline is most likely to fail, namely situations in which there is a quick change between the surroundings. The best way to improve on this would be to experiment in greater depth with either other color thresholds, or by adding gradient thresholding in as well.
+In my implementation, I first spent a significant amount of time trying different color and gradient thresholds. I ended up using the gradient in the x direction, and I used color thresholding with two different color spaces. There was one test image which was particularly difficult to identify the lane lines with, because that image had a bright patch followed by a large shadow cast by a tree. It is situations like these where my pipeline is most likely to fail, namely situations in which there is a quick change between the surroundings. The best way to improve on this would be to experiment in greater depth with either other color thresholds, or by adding gradient thresholding in as well.
