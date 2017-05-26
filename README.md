@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [image5]: ./output_images/sliding_windows.png "Sliding Windows"
 [image6]: ./output_images/past_lane_lines.png "If Previous"
 [image7]: ./output_images/filled_lane.png "Filled Lane"
-[video1]: ./project_video_output.mp4 "Video"
+[video1]: ./project_video_output3.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -109,7 +109,7 @@ I implemented this step in in conjunction with the function I wrote to calculate
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video_output.mp4)
+Here's a [link to my video result](./project_video_output3.mp4)
 
 ---
 
